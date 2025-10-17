@@ -1,0 +1,1 @@
+fun main() {    val t = readln().toInt()    repeat(t) {        val n = readln().toInt()        val s = readln()         val ones = s.count { it == '1' }        val zeros = n - ones        val result = (n - 1) * ones + zeros        println(result)    }}
