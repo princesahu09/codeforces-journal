@@ -1,0 +1,1 @@
+import java.util.*;fun main(){      val scanner =Scanner(System.`in`);      val testcase=scanner.nextInt();       repeat(testcase)      {            var n=scanner.nextInt();             println(2*n-2);      }}
