@@ -1,0 +1,1 @@
+#include<iostream>using namespace std; int main(){       int testcase;      cin>>testcase;       while(testcase--)      {            int n;            cin>>n;            cout<<(2*n-2)<<endl;                    }}
