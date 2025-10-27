@@ -1,1 +1,0 @@
-import java.util.*; fun main(){ val sc=Scanner(System.`in`)val testcase=sc.nextInt(); repeat(testcase){       var n=sc.nextInt();      var count=(n/15)*3       for(i in 0..(n%15))      {            if(i%3==i%5)count++;      }       println(count);} }
