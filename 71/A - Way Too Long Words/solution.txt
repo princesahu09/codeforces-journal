@@ -1,0 +1,1 @@
+import java.util.* fun main() {    val scanner = Scanner(System.`in`)    var testCase = scanner.nextInt()        while (testCase > 0) {        val s = scanner.next()        testCase--         val n = s.length        if (n > 10) {            val ans = "${s.first()}${n - 2}${s.last()}"            println(ans)        } else {            println(s)        }    }}
