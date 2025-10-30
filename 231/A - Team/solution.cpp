@@ -1,0 +1,1 @@
+#include<iostream>using namespace std; int main(){      int problem;      cin>>problem;      int ans=0;       while(problem>0)      {             int petya,vasya,tonya;            cin>>petya>>vasya>>tonya;             int sum=petya+vasya+tonya;            if(sum>=2)            {                  ans++;            }            problem--;      }      cout<<ans<<endl;}
