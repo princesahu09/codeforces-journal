@@ -1,0 +1,1 @@
+#include<iostream>using namespace std; int main(){      int n ;      cin>>n;      int ans=0;       while(n>0)      {            string x;            cin>>x;             if(x=="++X"||x=="X++")            {                  ans++;             }            else            {                  ans--;             }            n--;      }      cout<<ans;}
