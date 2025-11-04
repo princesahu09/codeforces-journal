@@ -1,0 +1,1 @@
+import java.util.* fun main() {    val sc = Scanner(System.`in`)    val s = sc.nextLine()     val arr = BooleanArray(26)     for (ch in s) {        arr[ch - 'a'] = true    }     var sum = 0    for (i in arr.indices) {        if (arr[i]) {            sum++        }    }     if (sum % 2 == 0) {        println("CHAT WITH HER!")    } else {        println("IGNORE HIM!")    }}
