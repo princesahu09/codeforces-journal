@@ -1,0 +1,1 @@
+#include <iostream>#include<cmath>#include<numeric>using namespace std; int main(){       int t;      cin >> t;      while (t-- > 0)      {             int a, b, c;            cin >> a >> b >> c;              int anna=a+(c+1)/2;            int katie=b+c/2;             cout<<(anna>katie?"First":"Second")<<endl;       }       return 0;}
