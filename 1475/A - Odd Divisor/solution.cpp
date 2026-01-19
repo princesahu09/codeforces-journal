@@ -1,0 +1,1 @@
+#include<iostream>#include<algorithm>using namespace std;typedef long long ll; string check(ll n){ if (__builtin_popcountll(n) == 1)        return "NO";       return "YES";   } int main(){       int t;      cin>>t;        while(t-- >0)      {            ll n;            cin>>n;             cout<<check(n)<<endl;        }         return 0;}
