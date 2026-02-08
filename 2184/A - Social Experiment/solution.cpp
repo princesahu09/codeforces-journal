@@ -1,0 +1,1 @@
+#include <iostream>using namespace std; int solve(int n){    if (n == 2) return 2;    if (n == 3) return 3;    if (n % 2 == 0) return 0;    return 1;}  int main(){       int t;      cin >> t;       while (t-- > 0)      {             int n;            cin >> n;             int ans = solve(n);             cout << ans << endl;      }       return 0;}
