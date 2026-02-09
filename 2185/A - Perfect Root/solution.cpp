@@ -1,0 +1,1 @@
+#include<iostream>#include<numeric>using namespace std; void solve(int n){           for(int i=1;i<=n;i++)      {            cout<<1LL*i*i<<" ";                  }      cout<<endl;} int main(){         int t;      cin>>t;      while(t-->0)      {            int n;            cin>>n;             solve(n);      }       return 0;}
