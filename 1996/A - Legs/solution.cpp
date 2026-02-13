@@ -1,0 +1,1 @@
+#include<iostream>using namespace std; int solve(int n){      int a=max(n/4,(n%4)/2);      int b=max(n/2,(n%2)/4);       if(a==b)return a;       return abs(a-b);         }  int main(){        int t;      cin>>t;              while(t-- >0)      {             int n ;            cin>>n;              cout<<solve(n)<<endl;      }}
