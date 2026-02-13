@@ -1,0 +1,1 @@
+#include<iostream>using namespace std; int solve(int n){    if(n%2!=0)return 0;             return n/4+1;         }  int main(){        int t;      cin>>t;              while(t-- >0)      {             int n ;            cin>>n;              cout<<solve(n)<<endl;      }}
