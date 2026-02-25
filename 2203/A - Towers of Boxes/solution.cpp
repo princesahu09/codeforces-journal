@@ -1,0 +1,1 @@
+#include <iostream>using namespace std; int solve(int n, int m, int d){       if (m > d)      {            return n;      }      int h = d / m + 1;       return (n + h - 1) / h;} int main(){       int t;      cin >> t;       while (t-- > 0)      {            int n, m, d;            cin >> n >> m >> d;             cout << solve(n, m, d) << endl;      }       return 0;}
